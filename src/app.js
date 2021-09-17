@@ -11,6 +11,7 @@ app.use(cors());
 const repositories = [];
 
 app.get("/repositories", (request, response) => {
+  console.log("blablabla");
   return response.json(repositories)
 });
 
